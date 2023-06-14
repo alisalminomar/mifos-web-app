@@ -2,7 +2,7 @@
 ### STAGE 1: Build app
 ###############
 ARG BUILDER_IMAGE=node:19-alpine
-ARG NGINX_IMAGE=nginx:1.23.3
+ARG NGINX_IMAGE=nginx:1.24
 
 FROM $BUILDER_IMAGE as builder
 ARG NPM_REGISTRY_URL=https://registry.npmjs.org/
